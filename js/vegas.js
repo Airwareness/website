@@ -184,7 +184,7 @@ $(document).ready(function(){
             if (!isBody) {
                 this.$elmt.css('height', this.$elmt.css('height'));
 
-                $wrapper = $('<div class="vegas-wrapper">')
+                $wrapper = $('<div class="vegas-wrapper slide-overlay">')
                     .css('overflow', this.$elmt.css('overflow'))
                     .css('padding',  this.$elmt.css('padding'));
 
