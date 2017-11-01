@@ -30,6 +30,8 @@ $(document).ready(function(){
             { src: 'img/about-1.jpg' },
             { src: 'img/about-2.jpg' },
             { src: 'img/about-3.jpg' },
+            { src: 'img/about-4.jpg' },
+            { src: 'img/about-5.jpg' },
         ],
 
         // Delay beetween slides in milliseconds.

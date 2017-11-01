@@ -55,7 +55,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
 
 /*
-* http://meyerweb.com/eric/tools/css/reset/ 
+* http://meyerweb.com/eric/tools/css/reset/
 * v2.0 | 20110126
 * License: none (public domain)
 */
@@ -515,7 +515,7 @@ sup {
 
 .section {
     text-align: center;
-    @include transition(all $slow-transition ease-in-out); 
+    @include transition(all $slow-transition ease-in-out);
 }
 
 .text-left-block {
@@ -1364,7 +1364,7 @@ sup {
                         }
                     }
                 }
-            }  
+            }
         }
     }
 
@@ -1407,7 +1407,7 @@ sup {
         bottom: 3rem;
         left: 0;
         position: absolute;
-    }  
+    }
 }
 
 /* ------------------------------------- */
@@ -1620,7 +1620,7 @@ sup {
             width: 100%;
         }
     }
-    
+
 }
 
 
@@ -1699,7 +1699,7 @@ sup {
     }
 
     .intro {
-        
+
 
         p {
             font-size: 1.2rem;
@@ -1883,7 +1883,7 @@ sup {
                             height: 5rem;
                             margin-top: 0;
                             float: left;
-                            @include border-radius(0 0.3rem 0.3rem 0); 
+                            @include border-radius(0 0.3rem 0.3rem 0);
                         }
                     }
                 }
