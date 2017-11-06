@@ -30,6 +30,8 @@ $(document).ready(function(){
             { src: 'img/about-1.jpg' },
             { src: 'img/about-2.jpg' },
             { src: 'img/about-3.jpg' },
+            { src: 'img/about-4.jpg' },
+            { src: 'img/about-5.jpg' },
         ],
 
         // Delay beetween slides in milliseconds.
@@ -182,7 +184,7 @@ $(document).ready(function(){
             if (!isBody) {
                 this.$elmt.css('height', this.$elmt.css('height'));
 
-                $wrapper = $('<div class="vegas-wrapper">')
+                $wrapper = $('<div class="vegas-wrapper slide-overlay">')
                     .css('overflow', this.$elmt.css('overflow'))
                     .css('padding',  this.$elmt.css('padding'));
 
